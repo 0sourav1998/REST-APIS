@@ -1,0 +1,20 @@
+<%- include("include/head.ejs") %>
+<!-- sub-template used for different files -->
+  <body>
+    <h1>The account belogs to <%= data.name %></h1>
+    <h3>
+      Followers : <%= data.followers %> &nbsp; &nbsp; &nbsp; &nbsp; Following :
+      <%= data.following %>
+    </h3>
+    <button>Click Here</button>
+    <hr />
+    <h1 id="post">
+      <% for(let post of data.posts){ %>
+      <img src="<%= post.image %>" alt="" />
+      <h3>Likes : <%= post.likes %> &nbsp; &nbsp; &nbsp; &nbsp; Comments : <%= post.comments %></h3>
+      <hr />
+      <% } %>
+    </h1>
+  </body>
+  <script src="/app.js"></script>
+</html>
