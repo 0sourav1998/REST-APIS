@@ -1,0 +1,47 @@
+body{
+    background-color: lightblue;
+}
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+    font-size : 30px;
+}
+.post{
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 6px red;
+}
+.user{
+    font-style: italic;
+} 
+h1{
+    color: maroon;
+}
+a{
+    margin-right: 2rem;
+}
+div form button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.container{
+    width: 500px;
+    height: 210px;
+    margin: auto;
+    border: 2px solid black;
+    
+}
+.details{
+    margin-left: 10px;
+
+}
+.heading{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
